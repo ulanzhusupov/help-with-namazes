@@ -7,7 +7,12 @@ class App extends Component {
   }
   render() {
     return (
-      <div>App</div>
+      <div className="container">
+        <div className="row justify-between">
+          <nav className="col-2">Menu</nav>
+          <div className="col-3">User</div>
+        </div>
+      </div>
     );
   }
 }
