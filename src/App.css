@@ -4,8 +4,88 @@
   background-color: #54CCE4;
 }
 
-.page-header > .container-fluid,
-.container-fluid > .row {
+.page-header > .container,
+.page-header > .container > .row {
   height: 100%;
 }
 
+/********** Buttons ********/
+.card__btn {
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: #54CCE4;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.card__btn:hover,
+.card__btn:active {
+  text-decoration: none;
+  color: #fff;
+  background-color: #49b1c5;
+}
+/********** Card ************/
+
+.page-main {
+  padding: 50px 0;
+}
+
+.last-namazes-card {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-skipped-days {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.last-skipped-days > h3 {
+  margin-bottom: 20px;
+}
+
+.skipped__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skipped__item {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.skipped__link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skipped__link__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.skipped__link__list li {
+  margin-right: 10px;
+}
+
+.skipped__link__list li:last-child {
+  margin-right: 0;
+}

@@ -5,7 +5,7 @@ import "./header.css";
 const Header = () => {
   return (
     <header className="page-header">
-        <div className="container-fluid">
+        <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-3">
               <nav className="header__nav">
