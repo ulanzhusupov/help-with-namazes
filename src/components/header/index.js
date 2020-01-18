@@ -7,7 +7,7 @@ const Header = () => {
     <header className="page-header">
         <div className="container">
           <div className="row justify-content-between align-items-center">
-            <div className="col-lg-3">
+            <div className="col-lg-5">
               <nav className="header__nav">
                 <button className="header__nav__btn "><span></span></button>
                 <ul className="header__nav__list">
@@ -16,6 +16,9 @@ const Header = () => {
                   </li>
                   <li className="header__nav__item">
                     <a href="#">Намазы</a>
+                  </li>
+                  <li className="header__nav__item">
+                    <a href="#">О проекте</a>
                   </li>
                 </ul>
               </nav>

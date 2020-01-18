@@ -1,0 +1,69 @@
+.page-namaz {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.namazes-card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.namazes-card h3 {
+  margin-bottom: 20px;
+}
+
+.namazes__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.namazes__item {
+  margin-bottom: 5px;
+}
+
+.namazes__item:last-child {
+  margin-bottom: 0;
+}
+
+.namazes__link {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.namazes__link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #49b1c5;
+}
+
+.namazes__link__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.namazes__link__list li {
+  margin-right: 10px;
+}
+
+.namazes__link__list li:last-child {
+  margin-right: 0;
+}
+

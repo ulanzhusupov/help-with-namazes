@@ -1,0 +1,87 @@
+.namazes-card {
+  padding-bottom: 50px;
+}
+
+.namazes-card > a {
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.namazes-card > a:hover {
+  color: #378898;
+}
+
+.namazes-card h3 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.form__wrapper {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.form__input {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.form__input:first-child p {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input span {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.form__input p {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.namaz-time__list {
+  display: flex;
+  font-display: row;
+  flex-wrap: wrap;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.namaz-time__item {
+  margin: 0 3%;
+  padding: 10px 0;
+  width: 105px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.namaz-time__item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.25);
+}
+
+.namaz-time__item h4,
+.namaz-time__item input {
+  position: relative;
+  z-index: 1111;
+}
