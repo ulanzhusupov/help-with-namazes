@@ -1,10 +1,9 @@
 import React from 'react';
 import "./NamazPage.css";
-import pageBg from "../../images/page-bg-1.jpg";
 
 function NamazPage() {
   return(
-    <main className="main page-namaz" style={{background: `url(${pageBg})`}}>
+    <main className="main page-namaz">
       <div className="container">
         <div className="row">
           <div className="col-lg-10">
